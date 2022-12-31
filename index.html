@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Withnara Decoration</title>
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css" />
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color: #77bfa3">
+            <div class="container">
+                <a class="navbar-brand fw-bold" id="withnara-navbar" href="#">Withnara</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto">
+                        <script>
+                            function goyang() {
+                                document.getElementById("icon1").style.animation += "shake 2.5s";
+                                document.getElementById("icon2").style.animation += "shake 2.5s";
+                                document.getElementById("icon3").style.animation += "shake 2.5s";
+                                setTimeout(() => {
+                                    document.getElementById("icon1").style.removeProperty("animation");
+                                    document.getElementById("icon2").style.removeProperty("animation");
+                                    document.getElementById("icon3").style.removeProperty("animation");
+                                }, 2500);
+                            }
+                        </script>
+                        <li class="nav-item">
+                            <a class="nav-link" id="" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#portofolio">Portofolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#footer" onclick="goyang()">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" onclick="">Pilihan Paket</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text"> </span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- NAVBAR END -->
+
+        <!-- Carousel Hero Image blm fix-->
+
+        <div class="shadow-carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="/ProjectHEHE/images/273275935_254120343422086_5485336874702445288_n.jpg" class="d-block w-100" alt="Image 1" />
+                        <div class="img-text">
+                            <h5 class="fw-bold">Lorem Ipsum</h5>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti provident ducimus earum, impedit officia neque eligendi sapiente pariatur aut fugit vel nulla fuga voluptas minus consectetur
+                            doloribus itaque praesentium animi cupiditate expedita laudantium. Dicta eveniet doloribus perferendis laborum? Eum assumenda in soluta nisi alias! Laudantium inventore itaque qui rem?
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="/ProjectHEHE/images/273396229_303804808451874_3066312245602155901_n.jpg" class="d-block w-100" alt="Image 2" />
+                        <div class="img-text">
+                            <h5 class="fw-bold">Lorem Ipsum</h5>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti provident ducimus earum, impedit officia neque eligendi sapiente pariatur aut fugit vel nulla fuga voluptas minus consectetur
+                            doloribus itaque praesentium animi cupiditate expedita laudantium. Dicta eveniet doloribus perferendis laborum? Eum assumenda in soluta nisi alias! Laudantium inventore itaque qui rem?
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="/ProjectHEHE/images/273744386_654626892542029_817236475800337665_n.jpg" class="d-block w-100" alt="Image 3" />
+                        <div class="img-text">
+                            <h5 class="fw-bold">Lorem Ipsum</h5>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto corrupti provident ducimus earum, impedit officia neque eligendi sapiente pariatur aut fugit vel nulla fuga voluptas minus consectetur
+                            doloribus itaque praesentium animi cupiditate expedita laudantium. Dicta eveniet doloribus perferendis laborum? Eum assumenda in soluta nisi alias! Laudantium inventore itaque qui rem?
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <br />
+
+        <!-- Carousel Hero Image END-->
+
+        <!-- About -->
+        <section id="about">
+            <div class="about row justify-content-center">
+                <div class="col-4">
+                    <h1 class="fw-bold">About Us</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas beatae iure corrupti hic cupiditate dignissimos consectetur ex alias eligendi velit neque nemo placeat magni necessitatibus adipisci voluptate minima
+                        dicta, omnis a molestiae eaque ipsum error? Quo veniam architecto corrupti ullam. Porro veniam consequuntur harum maiores, corporis iure quibusdam, cupiditate culpa ullam debitis excepturi dolorum repudiandae cumque
+                        nulla commodi possimus. Eos eius culpa quae similique doloribus amet sed dicta, ullam quidem nisi ipsum ad odit, rem laboriosam. Explicabo esse nobis cumque non cum culpa molestiae tempora omnis aliquid earum
+                        praesentium accusamus soluta, id nam! Error voluptatibus, temporibus beatae obcaecati ab nisi!
+                    </p>
+                </div>
+                <div class="col-4">
+                    <img src="/ProjectHEHE/images/3.png" alt="About Photos" id="about-img" class="" />
+                </div>
+            </div>
+        </section>
+        <br />
+
+        <!-- About END -->
+
+        <!-- Portofolio -->
+        <section id="portofolio">
+            <div class="portofolio row justify-content-center">
+                <div class="col-4 align-middle">
+                    <img src="/ProjectHEHE/images/2.png" alt="Portofolio Photos" id="portofolio-img" />
+                </div>
+                <div class="col-4 text-end">
+                    <h1 class="fw-bold">Our Portofolio</h1>
+                    <p class="portofolio-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit neque culpa, saepe, iure officiis voluptates dicta architecto pariatur tempore tempora ipsum, laborum omnis accusamus rerum? Consectetur dolores
+                        dicta obcaecati voluptate perspiciatis nulla optio eaque id dolore ex. Corporis nisi repudiandae natus unde mollitia doloribus odio, quidem provident sunt excepturi est deleniti nemo commodi placeat rem? Alias animi
+                        reiciendis explicabo assumenda et sunt vel sapiente deserunt odio qui. Rerum, ad, ea quos, animi impedit quod ab inventore aliquam rem numquam voluptatibus explicabo architecto obcaecati doloribus repellendus
+                        delectus illum! Doloremque odio facere, numquam dignissimos doloribus praesentium eos, nemo saepe, quisquam optio porro.
+                    </p>
+                    <div class="venue">
+                        <h2>Venue, City</h2>
+                        <h2>Date</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portofolio END-->
+
+        <!-- Footer -->
+        <section id="footer">
+            <footer>
+                <div class="container">
+                    <h1 class="withnara fw-bold text-center">Withnara</h1>
+                    <div class="connect">
+                        <h5>Connect With Us :</h5>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/withnaradecor/">
+                                <img src="/ProjectHEHE/icon/instagram.png" alt="instagram" id="icon1" />
+                            </a>
+                            <a href="">
+                                <img src="/ProjectHEHE/icon/twitter.png" alt="twitter" id="icon2" />
+                            </a>
+                            <a href="">
+                                <img src="/ProjectHEHE/icon/tiktok.png" alt="tiktok" id="icon3" />
+                            </a>
+                        </div>
+                    </div>
+                    <h6 class="copyright fw-bold text-center">WITHNARA DECORATION © 2022</h6>
+                </div>
+            </footer>
+        </section>
+    </body>
+</html>

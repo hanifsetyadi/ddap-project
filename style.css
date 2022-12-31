@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
+
+body {
+    font-family: "Montserrat";
+}
+
+.nav-item :hover {
+    color: white;
+}
+
+.shadow-carousel {
+    background-color: rgba(0, 0, 0, 0.434);
+}
+
+.carousel-item {
+    object-fit: cover;
+    opacity: 1;
+    max-height: 900px;
+}
+
+.img-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    padding-bottom: 20px;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 45%;
+    font-size: 2vh;
+}
+
+.about-text {
+    float: left;
+    width: 47%;
+}
+
+#about-img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(20px 20px 2rem black);
+}
+
+#portofolio-img {
+    display: grid;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    place-items: center;
+    filter: drop-shadow(-20px 20px 2rem black);
+}
+
+.venue {
+    text-align: center;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #77bfa3;
+    width: auto;
+    height: 355px;
+    top: 85.22%;
+}
+
+.icon img {
+    height: 2vw;
+    max-height: 30px;
+    display: flexbox;
+    margin: 0 5px;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg) scale(1.4, 1.4);
+    }
+    10% {
+        transform: rotate(-5deg);
+    }
+    1.40% {
+        transform: rotate(5deg);
+    }
+    30% {
+        transform: rotate(0deg);
+    }
+    40% {
+        transform: rotate(5deg) scale(1.4, 1.4);
+    }
+    50% {
+        transform: rotate(-5deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+    70% {
+        transform: rotate(-5deg);
+    }
+    80% {
+        transform: rotate(5deg) scale(1.4, 1.4);
+    }
+    90% {
+        transform: rotate(0deg);
+    }
+    500% {
+        transform: rotate(-5deg);
+    }
+}
+
+.withnara {
+    padding-top: 50px;
+    margin-top: 20px;
+    font-size: 64px;
+    font-family: "Passions Conflict";
+}
+
+.connect {
+    margin-bottom: 20px;
+    padding-top: 80px;
+}
+
+.copyright {
+    padding: 10px 0;
+}
+
+.portofolio {
+    padding: 7vw 0;
+    padding-top: 14rem;
+
+    margin-bottom: 170px;
+}
+
+.about {
+    padding: 7vw 0;
+    padding-top: 14rem;
+    margin-top: 5vw;
+}
+
+.portofolio-text {
+    font-size: 0.8vw;
+}
+
+p {
+    font-size: 1vw;
+}
